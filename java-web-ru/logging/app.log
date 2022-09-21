@@ -1,0 +1,52 @@
+Sep 21, 2022 1:36:32 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
+Sep 21, 2022 1:36:32 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Sep 21, 2022 1:36:32 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Sep 21, 2022 1:36:32 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/8.5.69]
+Sep 21, 2022 1:36:32 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-57687"]
+Sep 21, 2022 1:36:34 PM exercise.servlet.UsersServlet doPost
+INFO: Try to sign up with first name:  last name: Sidorov email: ivan@mail.ru
+Sep 21, 2022 1:36:34 PM exercise.servlet.UsersServlet doPost
+INFO: POST request with action list
+Sep 21, 2022 1:36:34 PM exercise.servlet.UsersServlet createUser
+INFO: Try to create user with first name:  last name: Sidorov email: ivan@mail.ru
+Sep 21, 2022 1:36:36 PM exercise.servlet.SessionServlet login
+INFO: Login with email lavern.keeling@gmail.com
+Sep 21, 2022 1:36:36 PM exercise.servlet.SessionServlet login
+INFO: Login with email shoshana.haley@hotmail.com
+Sep 21, 2022 1:36:36 PM exercise.servlet.SessionServlet login
+INFO: Login with email suzann.barrows@hotmail.com
+Sep 21, 2022 1:36:36 PM exercise.servlet.UsersServlet doGet
+INFO: GET request with action list
+Sep 21, 2022 1:36:37 PM exercise.servlet.SessionServlet login
+INFO: Login with email lavern.keeling@gmail.com
+Sep 21, 2022 1:36:37 PM exercise.servlet.UsersServlet doPost
+INFO: Try to sign up with first name: Ivan last name: Petrov email: ivan@mail.ru
+Sep 21, 2022 1:36:37 PM exercise.servlet.UsersServlet doPost
+INFO: POST request with action list
+Sep 21, 2022 1:36:37 PM exercise.servlet.UsersServlet createUser
+INFO: Try to create user with first name: Ivan last name: Petrov email: ivan@mail.ru
+Sep 21, 2022 1:36:37 PM exercise.servlet.UsersServlet doGet
+INFO: GET request with action list
+Sep 21, 2022 1:36:37 PM exercise.servlet.UsersServlet doGet
+INFO: GET request with action list
+Sep 21, 2022 1:36:37 PM exercise.servlet.SessionServlet login
+INFO: Login with email lavern.keeling@gmail.com
+Sep 21, 2022 1:36:37 PM exercise.servlet.SessionServlet login
+INFO: Login with email lavern.keeling@gmail.com
+Sep 21, 2022 1:36:37 PM exercise.servlet.UsersServlet doGet
+INFO: GET request with action new
+Sep 21, 2022 1:36:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-57687"]
+Sep 21, 2022 1:36:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Sep 21, 2022 1:36:37 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesObjectStreamClassCaches
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.base/java.io=null" to the JVM command line arguments to enable ObjectStream cache memory leak protection. Alternatively, you can suppress this warning by disabling ObjectStream class cache memory leak protection.
+Sep 21, 2022 1:36:37 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesRmiTargets
+WARNING: When running on Java 9 or later you need to add "--add-opens=java.rmi/sun.rmi.transport=null" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+Sep 21, 2022 1:36:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-57687"]
